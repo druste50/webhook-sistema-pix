@@ -22,8 +22,8 @@ app.post('/webhook', async (req, res) => {
 
     try {
         // Substitua com seus dados de email e token PagSeguro
-        const email = 'SEU_EMAIL_PAGSEGURO';
-        const token = 'SEU_TOKEN_PAGSEGURO';
+        const email = 'petersonsantos@hotmail.com.br';
+        const token = 'APP_USR-6617085307415372-010115-70d1605e940b5796b194ab71ffb261e4-104989330';
         const urlPagSeguro = `https://ws.pagseguro.uol.com.br/v3/transactions/notifications/${notificationCode}?email=${email}&token=${token}`;
 
         // Consulta a transação com o PagSeguro usando o notificationCode
